@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace practice
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // byte x= 255;
+            // System.Console.WriteLine(x);
+            //int y = 100;
+            // System.Int32 y = new System.Int32();
+            // y = 100;
+            // float f = 4.5f;
+
+            System.Console.Write(" Please give your Name: ");
+            String name = System.Console.ReadLine();
+            System.Console.WriteLine("You Have Given : " +name);
+
+            System.Console.Write(" please give an integar ID : ");
+            int ID =System.Convert.ToInt32(System.Console.ReadLine());
+            System.Console.WriteLine("You Have given : "+ID);
+
+            System.Console.Write(" Please give your Blood Group: ");
+            String BG = System.Console.ReadLine();
+            System.Console.WriteLine("You Have Given : " + BG);
+
+            System.Console.Write(" Please give your University name: ");
+            String Varsity = System.Console.ReadLine();
+            System.Console.WriteLine("You Have Given : " + Varsity);
+
+            System.Console.Write(" Please give CGPA: ");
+            float Cgpa = System.Convert. ToSingle(System.Console.ReadLine());
+            System.Console.WriteLine("You Have Given : "+Cgpa);
+
+            System.Console.WriteLine("############");
+            System.Console.WriteLine("Your Information");
+            System.Console.WriteLine("Name: "+name+"\nid: "+ID+"\nVarsity: "+Varsity+"\ncgpa"+Cgpa);
+
+
+        }
+    }
+}
